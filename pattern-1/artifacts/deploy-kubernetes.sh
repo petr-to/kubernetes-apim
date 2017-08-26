@@ -2,6 +2,9 @@
 
 # service account
 kubectl create serviceaccount wso2svcacct
+# persistent volume
+kubectl create -f volume/persistent-volumes.yaml
+
 
 # databases
 echo 'deploying databases ...'
